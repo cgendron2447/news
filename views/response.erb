@@ -21,13 +21,16 @@
     <title>News</title>
   </head>
   <body>
-    <div class="container mt-5">
-      <h1>Geocoding</h1>
-      <form action="/news">
-        <input type="text" name="q">
-        <button type="submit">Go there</submit>
-      </form>
-    </div>
+
+      <h1> Today's news and weather in <%= params["q"] %> </h1>
+
+      <h2> Forecast weather: </h2>
+        <h3> The current weather is <%= @current_temp%> degrees </h3>
+        <h3> The future forecast is: </h3>
+        <ul> <% for @daily_forecast in @forecast["daily"]["data"] %>
+           <li> A high temperature of <%@daily_forecast["temperatureHigh"]%> and <%@daily_forecast["summary"]%> </li>
+            <% end %> </ul>
+            
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
