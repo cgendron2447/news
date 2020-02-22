@@ -23,3 +23,25 @@
 .query_box {
     margin-left: 0px
 }
+
+.container {
+    grid-gutter-width: 20px;
+}
+
+.col-md-6{
+    background-color:#FBFBF8;
+    font-size: 12pt;
+    font-family: Lora;
+}
+
+.jumbotronfluid{
+    background-color:#FBFBF8;
+}
+
+.h1 {
+    font-weight: bold;
+}
+
+.ask_page {
+    background-color:#FBFBF8;
+}
