@@ -1,0 +1,25 @@
+.navbar-brand {
+    color: whitesmoke;
+    font-size: 10pt;
+    font-family: Lora;
+    text-shadow: 1px 1px 1px black;
+}
+
+.headline {
+    color: black;
+    font-size: 48pt;
+    font-family: Great Vibes;
+    text-shadow: 1px 1px 1px whitesmoke;
+}
+
+.initial_prompt {
+    color: black;
+    font-size: 30pt;
+    font-family: Lora;
+    text-shadow: 1px 1px 1px whitesmoke;
+
+}
+
+.query_box {
+    margin-left: 0px
+}
