@@ -26,7 +26,7 @@ get "/news" do
         @daily_forecast = []
         
         for forecast_temp in @future_forecast
-            @daily_forecast << "#{forecast_temp["temperatureHigh"]} and #{forecast_temp["summary"]}"
+            @daily_forecast << "#{forecast_temp["temperatureHigh"]} degrees and #{forecast_temp["summary"]}"
         end
 
         url = "https://newsapi.org/v2/top-headlines?country=us&apiKey=67bf1b502ba740c782d2d60f3b946e3d"
