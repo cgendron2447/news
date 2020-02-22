@@ -7,7 +7,7 @@
 
 .headline {
     color: black;
-    font-size: 48pt;
+    font-size: 72pt;
     font-family: Great Vibes;
     text-shadow: 1px 1px 1px whitesmoke;
 }
@@ -15,7 +15,7 @@
 .initial_prompt {
     color: black;
     font-size: 30pt;
-    font-family: Lora;
+    font-family: Noto Serif JP;
     text-shadow: 1px 1px 1px whitesmoke;
 
 }
@@ -28,10 +28,10 @@
     grid-gutter-width: 20px;
 }
 
-.col-md-6{
+.col-md-6 .h5{
     background-color:#FBFBF8;
     font-size: 12pt;
-    font-family: Lora;
+    font-family: Noto Serif JP;
 }
 
 .jumbotronfluid{
